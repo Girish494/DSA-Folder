@@ -1,0 +1,76 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "Practice.p2",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "Practice.p1",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Questions.Q1",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "linearSearch",
+            "request": "launch",
+            "mainClass": "linearSearch",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "day3",
+            "request": "launch",
+            "mainClass": "day3",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "day3",
+            "request": "launch",
+            "mainClass": "Recusrion.day3",
+            "projectName": "Code_181a92d7"
+        }
+    ]
+}
