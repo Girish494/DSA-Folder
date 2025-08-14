@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "Q2",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "Day1.Q1",
+            "projectName": "Code_181a92d7"
+        },
+        {
+            "type": "java",
             "name": "p2",
             "request": "launch",
             "mainClass": "Practice.p2",
