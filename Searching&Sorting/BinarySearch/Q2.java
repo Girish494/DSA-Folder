@@ -1,11 +1,15 @@
 public class Q2 {
     public static void main(String[] args) {
-        int array[]={1,2,3};
+        int array[]={4,5,6,7,0,1,2};
         int s=0;
         int e=array.length-1;
         int ans=-1;
-        System.out.println(firstOccurance(array,s,e,1,ans));
+    //   int a=firstOccurance(array,s,e,2,ans);
+    //   int b=lastOccurance(array,s,e,2,ans);
+    //   System.out.println(totalOccurance(a,b));
         // System.out.println(lastOccurance(array,s,e,4,ans));
+        System.out.println(sortedArray(array,s,e,3,ans));
+
 
 
     }
@@ -111,4 +115,35 @@ public class Q2 {
        
         
     }
+    public static int totalOccurance(int a,int b){
+        return (b-a)+1;
+    } 
+    public static int sortedArray(int array[],int s,int e,int target,int ans){
+        if(s>e){
+            return ans;
+        }
+        int mid=s+(e-s)/2;
+        if(array[mid]==target){
+            return mid;
+        }
+        else if(array[s]<=array[mid]){
+            if(array[s]<=target&&target<array[mid]){
+                e=mid-1;
+                return sortedArray(array,s,e,target,ans);
+            }else{
+                s=mid+1;
+                return sortedArray(array,s,e,target,ans);
+            }
+        }
+        else{
+            if(array[mid]<target&&target<=array[e]){
+                s=mid+1;
+                return sortedArray(array,s,e,target,ans);
+            }else{
+                e=mid-1;
+                return sortedArray(array,s,e,target,ans);
+            }
+        }
+    }
 }
+  
